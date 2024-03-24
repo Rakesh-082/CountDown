@@ -147,7 +147,7 @@ p{
 @media screen and (max-width:450px){
     .content{
         width: 330px;
-        height: 450px;  
+        height: 470px;  
     }
     nav{
         height: 60px;
@@ -180,19 +180,19 @@ p{
         font-family: 'Ojuju',sans-serif;
     }
     .buttons{
-        width: 90%;
+        width: 85%;
         height: 60px;
         border: none;
         outline: none;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin: 20px;
+        margin: 27px;
     }
     
     .icons{
-        width: 40px;
-        height: 40px;
+        width: 45px;
+        height: 45px;
         border: none;
         outline: none;
         display: flex;
