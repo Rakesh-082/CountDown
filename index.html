@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountDown</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <nav>
+                <button><img src="sources/hamburger.png" id="btn-h"></button>
+                <button><img src="sources/cross.png" id="btn-c"></button>
+            </nav>
+            <div class="counter">
+                <div class="counter-img">
+                    <div>
+                        <span id="hours">00</span>
+                        <p>HOURS</p>
+                    </div>
+                    
+                    <div>
+                        <span id="mins">00</span>
+                        <p>MINS</p>
+                    </div>
+                    <div>
+                        <span id="secs">00</span>
+                        <p>SECS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="icons" onclick="watchStop()">
+                    <img src="sources/stop.png" id="stop" onclick="watchStop()">
+                </div>
+                <div class="icons-p" onclick="watchStart()">
+                    <img src="sources/play.png" id="play" onclick="watchStart()">
+                </div>
+                <div class="icons" onclick="watchReset()">
+                    <img src="sources/trash.png" id="reset" onclick="watchReset()">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
