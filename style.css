@@ -31,6 +31,7 @@ button{
     border: none;
     outline: none;
     cursor: pointer;
+    background: transparent;
 }
 
 nav{
@@ -155,6 +156,7 @@ p{
     #btn-h,#btn-c{
         width: 22px;
         height: 22px;
+        background: transparent;
     }
     .counter-img{
         width: 300px;
